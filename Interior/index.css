@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lora', serif;
     text-decoration: none;
     list-style: none;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    text-align: center;
+}
 .top-background{
-    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.5)),url("images/background_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,6 +35,7 @@
 .heading{
     cursor: pointer;
     font-size: 2rem;
+    color: #0f4c75;
 }
 nav{
     padding: 0 20px;
@@ -43,15 +50,23 @@ nav li a{
 }
 a:hover{
     border-bottom: 3px solid black;
-    color: white;
+    color: #0f4c75;
+    font-size: larger;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10%;
 }
 .title{
-    text-align: center;
+    text-align: left;
     font-size: 50px;
-    padding-top: 300px;
+    padding-top: 170px;
     color: rgba(0,0,0,0.5);
     letter-spacing: 10px;
-    text-shadow: 0 0 4px #0f4c75;
+    text-shadow: 1px 1px 2px #0f4c75;
+    font-weight: bolder;
 }
 .description{
     font-size: 30px;
@@ -65,8 +80,11 @@ a:hover{
     letter-spacing: 10px;
     color: #0f4c75;
     margin: 3rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
+    text-shadow: 0 0 4px #0f4c75;
+    text-align: center;
+    margin-top: 50px;
 }
 .design img{
     height: 400px;
@@ -90,13 +108,6 @@ a:hover{
     transition: all 0.5s;
     outline: none;
     border: none;
-}
-.why-us-heading{
-    margin: 50px;
-    text-align: center;
-    color: rgba(0,0,0,0.5);
-    letter-spacing: 10px;
-    text-shadow: 0 0 4px #0f4c75;
 }
 .flex-block{
     display: flex;
@@ -128,23 +139,23 @@ a:hover{
     font-size: 50px;
     padding: 20px;
 }
-.appointment-form,input,textarea{
+.contact-form,input,textarea{
     text-align: center;
     display: flex;
     padding: 20px;
     width: 400px;
 }
-.appointment-heading{
+.contact-heading{
     display: flex;
     margin: 20px;
     justify-content: space-evenly;
 }
-.appointment-heading img{
+.contact-heading img{
     height: 50%;
     width: 50%;
 }
-.appointment-heading h2{
+.contact-heading h2{
     margin: -20px 0px 20px 0px; 
     text-align: center;
     letter-spacing: 2px;
-}
+}   
