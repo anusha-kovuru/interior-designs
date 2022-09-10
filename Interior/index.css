@@ -109,35 +109,25 @@ a:hover{
     outline: none;
     border: none;
 }
-.flex-block{
+.about{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
 }
-.why-us-flex-item{
-    background: #0f4c75;
-    color: white;
-    width: 20%;
-    height: 20%;
-    padding: 40px;
-    margin: 20px;
-    line-height: 30px;
+.about img{
+    height: 250px;
+    max-width: 95%;
 }
-.block-label{
-    font-variant: small-caps;
-    font-size: 30px;
-    margin-bottom: 20px;
-    letter-spacing: 5px;
-}
-.block-description{
-    text-align: justify;
-    font-size: 20px;
-}
-.block-number{
-    font-weight: bold;
-    font-size: 50px;
+.about-description{
+    margin: 2rem;
     padding: 20px;
+    text-align: justify;
+}
+.about-description i{
+    font-size: 8px;
+}
+.about-description h1, ul{
+    
+    padding: 10px 0 10px 100px;
+  
 }
 .contact-form,input,textarea{
     text-align: center;
@@ -158,4 +148,18 @@ a:hover{
     margin: -20px 0px 20px 0px; 
     text-align: center;
     letter-spacing: 2px;
-}   
+}
+.icons i{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+.icons i:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.footer-message{
+    background-color: black;
+    color: whitesmoke;
+    height: 40px;  
+}
